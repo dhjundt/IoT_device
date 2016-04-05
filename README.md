@@ -27,14 +27,4 @@ Finally, the user can look at his log (no login required now) by looking at the 
 [Specification]:<http://www.d-jundt.org/pdf/IoT_capstone_wk2.pdf>
 [Testing protocol]:<http://www.d-jundt.org/pdf/IoT-capstone-wk3.pdf>
 [*log_it.php*]: <http://www.d-jundt.org/IoT/log_it.php>
-[*doorlog.php*]: <http://www.d-jundt.org/IoT/doorlog.php?serial=00000000ff8110f7>grams
-The Raspberry pi program is *Main_Garage_Door.py*. It handles the inputs (keypad, sensors), the actuator (LED, SSR to simulate button press) and the web server communication.
-The website code is in php and has two pages:
-- dd
-
-
-[Introduction to the Internet of Things and Embedded Systems]: <https://www.coursera.org/learn/iot>
- [video]:<https://www.youtube.com/watch?v=A8CVJ2s7bAk>  
-[Top level requirement]:<http://www.d-jundt.org/pdf/Week1_Specification.pdf>
-[Specification]:<http://www.d-jundt.org/pdf/IoT_capstone_wk2.pdf>
-[Testing protocol]:<http://www.d-jundt.org/pdf/IoT-capstone-wk3.pdf>
+[*doorlog.php*]: <http://www.d-jundt.org/IoT/doorlog.php?serial=00000000ff8110f7>
