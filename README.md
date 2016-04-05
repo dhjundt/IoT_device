@@ -15,6 +15,20 @@ The homework assignments for the capstone class are here:
 
 ### Programs
 The Raspberry pi program is *Main_Garage_Door.py*. It handles the inputs (keypad, sensors), the actuator (LED, SSR to simulate button press) and the web server communication.
+The website code is in php. The IoT device interacts with the page [*log_it.php*]. First, a token is requested after supplying the Serial number (encrypted). If successfully decrypted, the server generates a random token, sends it back and stores it in a mysql table associated with the Serial number of the IoT device. Then, the IoT device sends the information to be stored. The server makes an entry in the database only if the Serial number and the token match with the record in the database. 
+
+Finally, the user can look at his log (no login required now) by looking at the page [*doorlog.php*]. The serial number is the one of my IoT device.
+
+
+
+[Introduction to the Internet of Things and Embedded Systems]: <https://www.coursera.org/learn/iot>
+ [video]:<https://www.youtube.com/watch?v=A8CVJ2s7bAk>  
+[Top level requirement]:<http://www.d-jundt.org/pdf/Week1_Specification.pdf>
+[Specification]:<http://www.d-jundt.org/pdf/IoT_capstone_wk2.pdf>
+[Testing protocol]:<http://www.d-jundt.org/pdf/IoT-capstone-wk3.pdf>
+[*log_it.php*]: <http://www.d-jundt.org/IoT/log_it.php>
+[*doorlog.php*]: <http://www.d-jundt.org/IoT/doorlog.php?serial=00000000ff8110f7>grams
+The Raspberry pi program is *Main_Garage_Door.py*. It handles the inputs (keypad, sensors), the actuator (LED, SSR to simulate button press) and the web server communication.
 The website code is in php and has two pages:
 - dd
 
